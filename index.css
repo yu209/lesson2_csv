@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1100px;   
+    margin: 0 auto;
+}
+
+#header {
+    width: 1100px;
+    height: 250px;
+}
+
+/* mainエリアの3カラム格納の親要素 */
+#colomn-3 {
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+}
+
+/* left, middleカラム格納の親要素 */
+#left-2 {
+    float: left;
+    display: flex;
+    width: 80%;
+}
+
+#left-2 #left{
+    background-color: aqua;
+    width: 23%;
+    float: left;
+}
+
+#left-2 #middle{
+    background-color: burlywood;
+    width: 77%;
+    float: right;
+}
+
+#right {
+    background-color: crimson;
+    width: 20%;
+    float: right;
+}
+
+#middle h1 {
+    text-align: center;
+}
+
+#middle table {
+    margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid gray;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  opacity: 0.5;
+  line-height: 50px;
+}
