@@ -32,7 +32,7 @@
     });
      outputElement.innerHTML = insertElement;
   }
-   getCsvData('todouhuken2.csv');
+   getCsvData('../population.csv');
 
 
 
